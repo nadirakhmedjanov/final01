@@ -35,7 +35,13 @@ class Program
                 index++;
             }
         }
-      
+
+        Console.WriteLine("Новый массив:");
+        foreach (string item in newArray)
+        {
+            Console.WriteLine(item);
+        }
+
         Console.ReadKey();
     }
 }
